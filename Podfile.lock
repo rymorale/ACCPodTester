@@ -1,0 +1,26 @@
+PODS:
+  - ACPCampaignClassic (2.1.1):
+    - ACPCampaignClassic/xcframeworks (= 2.1.1)
+    - ACPCore (>= 2.9.0)
+  - ACPCampaignClassic/xcframeworks (2.1.1):
+    - ACPCore (>= 2.9.0)
+  - ACPCore (2.9.5):
+    - ACPCore/main (= 2.9.5)
+  - ACPCore/main (2.9.5)
+
+DEPENDENCIES:
+  - ACPCampaignClassic
+  - ACPCore
+
+SPEC REPOS:
+  trunk:
+    - ACPCampaignClassic
+    - ACPCore
+
+SPEC CHECKSUMS:
+  ACPCampaignClassic: bde2c2ab33418f49272e17a07f0f05db5533b4a3
+  ACPCore: f6c5ec32fe162e61a18bec2ae79c8c5a48362a46
+
+PODFILE CHECKSUM: cb98a79767084467c8afaf569fd444c086a84660
+
+COCOAPODS: 1.11.3

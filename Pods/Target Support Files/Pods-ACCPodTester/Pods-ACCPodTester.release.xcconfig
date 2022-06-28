@@ -1,0 +1,12 @@
+CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = NO
+FRAMEWORK_SEARCH_PATHS = $(inherited) "${PODS_CONFIGURATION_BUILD_DIR}/ACPCampaignClassic" "${PODS_CONFIGURATION_BUILD_DIR}/ACPCore" "${PODS_ROOT}/ACPCampaignClassic" "${PODS_ROOT}/ACPCore"
+GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
+HEADER_SEARCH_PATHS = $(inherited) "${PODS_CONFIGURATION_BUILD_DIR}/ACPCampaignClassic/ACPCampaignClassic.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/ACPCore/ACPCore.framework/Headers" "${PODS_XCFRAMEWORKS_BUILD_DIR}/ACPCampaignClassic/xcframeworks/Headers" "${PODS_XCFRAMEWORKS_BUILD_DIR}/ACPCore/main/Headers"
+LIBRARY_SEARCH_PATHS = $(inherited) "${PODS_XCFRAMEWORKS_BUILD_DIR}/ACPCampaignClassic/xcframeworks" "${PODS_XCFRAMEWORKS_BUILD_DIR}/ACPCore/main"
+OTHER_LDFLAGS = $(inherited) -ObjC -l"ACPCampaignClassic_iOS" -l"ACPCore_iOS" -l"ACPIdentity_iOS" -l"ACPLifecycle_iOS" -l"ACPSignal_iOS" -l"c++" -l"sqlite3.0" -l"z" -framework "ACPCampaignClassic" -framework "ACPCore" -framework "SystemConfiguration" -framework "UIKit" -framework "UserNotifications" -framework "WebKit"
+PODS_BUILD_DIR = ${BUILD_DIR}
+PODS_CONFIGURATION_BUILD_DIR = ${PODS_BUILD_DIR}/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)
+PODS_PODFILE_DIR_PATH = ${SRCROOT}/.
+PODS_ROOT = ${SRCROOT}/Pods
+PODS_XCFRAMEWORKS_BUILD_DIR = $(PODS_CONFIGURATION_BUILD_DIR)/XCFrameworkIntermediates
+USE_RECURSIVE_SCRIPT_INPUTS_IN_SCRIPT_PHASES = YES

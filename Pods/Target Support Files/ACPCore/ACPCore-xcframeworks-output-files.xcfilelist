@@ -1,0 +1,4 @@
+${PODS_XCFRAMEWORKS_BUILD_DIR}/ACPCore/main/ACPCore.framework
+${PODS_XCFRAMEWORKS_BUILD_DIR}/ACPCore/main/ACPIdentity.framework
+${PODS_XCFRAMEWORKS_BUILD_DIR}/ACPCore/main/ACPLifecycle.framework
+${PODS_XCFRAMEWORKS_BUILD_DIR}/ACPCore/main/ACPSignal.framework
